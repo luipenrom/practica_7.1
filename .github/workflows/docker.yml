@@ -30,7 +30,7 @@ jobs:
         with:
           registry: ghcr.io
           username: luipenrom
-          password: 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
+          password: UL!GC7eqrDExU@2Wc
       -
         name: Build and push
         uses: docker/build-push-action@v2
