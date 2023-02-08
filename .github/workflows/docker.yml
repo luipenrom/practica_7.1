@@ -22,14 +22,14 @@ jobs:
         name: Login to DockerHub
         uses: docker/login-action@v1
         with:
-          username: luipero
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Login to GitHub Container Registry
         uses: docker/login-action@v1
         with:
           registry: ghcr.io
-          username: luipenrom
+          username: ${{ github.repository_owner }}
           password: ${{ secrets.GHRC_TOKEN }}
       -
         name: Build and push
