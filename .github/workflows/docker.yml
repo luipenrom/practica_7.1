@@ -23,7 +23,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: luipero
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          password: dckr_pat_q5KHJhUrirBrzyvjN3x6I_6_VOY
       -
         name: Login to GitHub Container Registry
         uses: docker/login-action@v1
