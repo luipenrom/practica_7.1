@@ -39,6 +39,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: | #
-            luipenrom/practica7.1:latest 
-            ghcr.io/luipero/practica7.1:latest 
+            luipero/practica_7.1:latest 
+            ghcr.io/luipenrom/practica_7.1:latest 
 
